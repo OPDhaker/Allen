@@ -19,11 +19,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 0 10px;
     text-align: center;
 }
 
 .hbd span {
+    color: #00ff00;
+    text-shadow: 0 0 20px #00ff00;
+}
+
+.hbd .UND p {
+    font-size: 25px;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.hbd .UND bold {
+    font-weight: 900;
     color: #00ff00;
     text-shadow: 0 0 20px #00ff00;
 }
